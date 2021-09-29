@@ -131,3 +131,4 @@ dmypy.json
 # IDE
 .idea/
 /con_env/
+/todo.md

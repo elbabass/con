@@ -10,7 +10,7 @@ TRADUCTIONS = {
     u'pull': u'tracte',
     u"push": u"pulse",
     u"clone": u"forme",
-    u"merge": u"verge",
+    u"merge": u"bine",
     u"rebase": u"fonde",
     u"diff": u"pare",
     u"log": u"signe"
@@ -22,7 +22,7 @@ def traduit_commande(commande):
 
 
 def main():
-    subprocess.call(['ls'])
+    subprocess.call(['git'])
 
 
 if __name__ == '__main__':  # pragma: no cover

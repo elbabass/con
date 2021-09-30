@@ -15,7 +15,13 @@ The name "[con](https://www.wordreference.com/enfr/git)" is an approximate trans
 For example, in French, one can say: "Tu es con, ou quoi ?"
 
 In some local dialects, like in Marseille, it's used as a punctuation word, like in the sentence:
-"Hé! Con! Tu n'aurais pas oublié le frein à main ?"
+"Hé! Tu n'aurais pas oublié le frein à main, con ?"
+
+# Installation
+
+```shell
+python3 -m pip install -e git+https://github.com/elbabass/con.git#egg=con
+```
 
 # Current status
 

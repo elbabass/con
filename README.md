@@ -20,7 +20,7 @@ In some local dialects, like in Marseille, it's used as a punctuation word, like
 # Installation
 
 ```shell
-python3 -m pip install -e git+https://github.com/elbabass/con.git#egg=con
+pip install con-trefacon
 ```
 
 # Current status

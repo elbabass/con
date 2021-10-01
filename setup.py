@@ -1,20 +1,24 @@
 # coding: utf-8
 
-import re
-from os.path import dirname, join, abspath
-
 from setuptools import setup, find_packages
 
-VERSION = re.search(
-    r"__version__\s=\s'(\d\.\d\.\d)'",
-    open(abspath(join(dirname(__file__), 'con.py'))).read()
-).group(1)
+long_description = """
+Con is a French wrapper around the git toolbox
+
+## Examples
+
+* ``git push`` → ``con pulse``
+* ``git pull`` → ``con tracte``
+* ``git merge`` → ``con bine``
+"""
 
 setup(
-    name='con',
-    version=VERSION,
+    name='con_trefacon',
+    version="0.0.1",
     license='3-clause BSD',
     description='Con, comme git, mais en français',
+    long_description=long_description,
+    long_description_content_type='text/markdown',
     author="Bastien Gallay",
     author_email="bastien@gallay.org",
     url='http://github.com/elbabass/con',

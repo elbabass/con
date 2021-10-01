@@ -3,7 +3,7 @@
 import re
 from os.path import dirname, join, abspath
 
-from setuptools import setup
+from setuptools import setup, find_packages
 
 VERSION = re.search(
     r"__version__\s=\s'(\d\.\d\.\d)'",
@@ -20,6 +20,7 @@ setup(
     url='http://github.com/elbabass/con',
     py_modules=['con'],
     entry_points={'console_scripts': ['con=con:main']},
+    packages=find_packages(exclude=("tests",)),
     classifiers=[
         'Environment :: Console',
         'License :: OSI Approved :: BSD License',

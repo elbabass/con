@@ -1,2 +1,3 @@
 -r test.txt
 tox
+flake8

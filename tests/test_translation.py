@@ -29,6 +29,7 @@ def test_remplace_commande_principale_avec_git():
     expected_command_argv = ["git", "titi", "tutu", "tata"]
     assert expected_command_argv == remplace_commande_principale(input_command_argv)
 
+
 def test_traduit_ligne_de_commande_complete():
     input_command_argv = ["git", "pulse", "tutu", "tata"]
     expected_command_argv = ["git", "push", "tutu", "tata"]

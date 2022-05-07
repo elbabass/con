@@ -13,7 +13,8 @@ TRADUCTIONS = {
     u"pare": u"diff",
     u"signe": u"log",
     u"state": u"status",
-    u"comitant": u"commit"
+    u"comitant": u"commit",
+    u"sulte": u"checkout"
 }
 
 

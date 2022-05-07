@@ -1,0 +1,13 @@
+== Con - Documentation
+
+
+* ``git pull`` → ``con tracte``
+* ``git push`` → ``con pulse``
+* ``git clone`` → ``con forme``
+* ``git merge`` → ``con bine``
+* ``git rebase`` → ``con fonde``
+* ``git diff`` → ``con pare``
+* ``git log`` → ``con signe``
+* ``git status`` → ``con state``
+* ``git commit`` → ``con comitant``
+* ``git checkout`` → ``con sulte``
